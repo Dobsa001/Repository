@@ -1,0 +1,23 @@
+body 
+{
+    background: linear-gradient(lightblue,pink,yellow,purple,cyan);
+    height: 98vh;
+}
+h1 
+{
+    text-align: center;
+    border: 3px solid black;
+    width: 20%;
+    height: 7vh;
+    margin: 0 auto;
+    background: linear-gradient(pink,rgb(0, 234, 167),white,orange);
+}
+.ferde-gomb {
+  background-color: #bd0026;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}

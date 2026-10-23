@@ -1,0 +1,147 @@
+body
+{
+    background-color: black;
+}
+#button_1
+{
+    background-color: darkviolet;
+}
+#button_2
+{
+    background-color: orchid;
+}
+#button_3
+{
+    background-color: skyblue;
+}
+#button_4
+{
+    background-color: greenyellow;
+}
+#button_5
+{
+    background-color: rgb(255, 62, 94);
+}
+#button_6
+{
+    background-color: aqua;
+}
+#button_7
+{
+    background-color: chartreuse;
+}
+#button_8
+{
+    background-color: chocolate;
+}
+#button_9
+{
+    background-color: forestgreen;
+}
+#button_10
+{
+    background-color: darkorchid;
+}
+#button_11
+{
+    background-color: darkkhaki;
+}
+#button_12
+{
+    background-color: darkorange;
+}
+#button_13
+{
+    background-color: burlywood;
+}
+#button_14
+{
+    background-color: dodgerblue;
+}
+#button_15
+{
+    background-color: mediumvioletred;
+}
+#button_16
+{
+    background-color: deeppink;
+}
+.button
+{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.div
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.button-1
+{
+    animation: elso-animation;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes elso-animation
+{
+    0% 
+    {
+        transform: translateX(0px) rotate(0deg);
+    }
+    25%
+    {
+        transform: translateX(120%) translateY(150%) rotate(90deg) scale(1.5);
+    }
+    50%
+    {
+       transform: translateX(0%) translateY(300%) rotate(180deg) scale(1);
+    }
+    75% 
+    {
+        transform: translateX(-120%) translateY(150%) rotate(270deg) scale(1.5);
+    }
+    100% 
+    {
+        transform: translateX(0%) translateY(0%) rotate(360deg) scale(1);
+    }
+}
+.button-2
+{
+    animation: masodik-animation;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes masodik-animation
+{
+    0% 
+    {
+        transform: translateX(0px) rotate(0deg);
+    }
+    25%
+    {
+        transform: translateX(-120%) translateY(150%) rotate(90deg) scale(1.5);
+    }
+    50%
+    {
+       transform: translateX(0%) translateY(300%) rotate(180deg) scale(1);
+    }
+    75% 
+    {
+        transform: translateX(120%) translateY(150%) rotate(270deg) scale(1.5);
+    }
+    100% 
+    {
+        transform: translateX(0%) translateY(0%) rotate(360deg) scale(1);
+    }
+}
+

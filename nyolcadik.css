@@ -1,0 +1,195 @@
+#button_1
+{
+    height: 95vh;
+    position: absolute;
+    background-color: aqua;
+    width: 2.5vw;
+    mix-blend-mode: difference;
+
+    animation: button_1-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+    body
+{
+    background:linear-gradient(pink,black,white,orange);
+    height: 98vh;
+    animation: body_animation 10s ease infinite;
+}
+
+
+@keyframes body_animation
+{
+    0%
+    {
+        background: (pink,black,white,orange);
+    }
+    30% 
+    {
+        background: linear-gradient(green,yellow,pink,purple);
+    }
+    60% 
+    {
+        background: linear-gradient(cyan,green,orange,red);
+    }
+    90% 
+    {
+        background: linear-gradient(red,purple,white,orange);
+    }
+    100% 
+    {
+        background: linear-gradient(green,pink,yellow,purple,orange,red,cyan,black,white,lightblue);
+    }
+}
+
+@keyframes button_1-animation
+{
+    0%
+    {
+        transform: translate(0) scale(1);
+        filter: hue-rotate(0deg);
+    }
+    25%
+    {
+        transform: translateX(1200%) translateY(-47%) rotate(-90deg) scaleY(2.8);
+        filter: hue-rotate(180deg);
+    }
+    50%
+    {
+        transform: translateX(3787%) rotate(-180deg);
+        filter: hue-rotate(360deg);
+    }
+    75% 
+    {
+        transform: translateX(1900%) translateY(52%) rotate(90deg) scaleY(2.15);
+    }
+    100% 
+    {
+        transform: translate(0) scale(1);
+    }
+}
+#button_2
+{
+    width: 95vw;
+    height: 5vh;
+    position: absolute;
+    background-color: blueviolet;
+    mix-blend-mode: difference;
+
+    animation: button_2-animation;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_2-animation
+{
+    0%
+    {
+        transform: translate(0) scale(1);
+        filter: hue-rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(-90deg) translateY(2030%) translateX(-22%) scaleX(0.48);
+        filter: hue-rotate(180deg);
+    }
+    50%
+    {
+        transform: rotate(-180deg) translateY(-1900%);
+        filter: hue-rotate(360deg);
+    }
+    75% 
+    {
+        transform: rotate(-270deg) translateY(1950%) scaleX(0.48) translateX(50%) ;
+    }
+    100% 
+    {
+        transform: rotate(-360deg);
+    }
+}
+#button_3
+{
+    width: 97vw;
+    height: 5vh;
+    position: absolute;
+    top: 95vh;
+    background-color: darkorange;
+    mix-blend-mode: difference;
+
+    animation: button_3-animation;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_3-animation
+{
+    0%
+    {
+        transform: translate(0) scale(1);
+        filter: hue-rotate(0deg);
+    }
+    25% 
+    {
+        transform: rotate(-90deg) scaleX(0.5) translateX(45%) translateY(-1975%);
+        filter: hue-rotate(180deg);
+    }
+    50% 
+    {
+        transform: rotate(-180deg) translateY(1850%);
+        filter: hue-rotate(360deg);
+    }
+    75% 
+    {
+        transform: rotate(-270deg) scaleX(0.45) translateX(-50%) translateY(-1975%);
+    }
+    100% 
+    {
+        transform: rotate(-360deg);
+    }
+}
+#button_4
+{
+    height: 94vh;
+    position: absolute;
+    left: 95vw;
+    background-color: greenyellow;
+    width: 2.5vw;
+    mix-blend-mode: difference;
+    
+
+    animation: button_4-animation;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_4-animation
+{
+    0%
+    {
+        transform: translate(0) scale(1);
+        filter: hue-rotate(0deg);
+    }
+    25% 
+    {
+        transform: rotate(-90deg) translateX(-945%) translateY(-105%) scaleY(2.16);
+        filter: hue-rotate(180deg);
+    }
+    50% 
+    {
+        transform: rotate(-180deg) translateX(3778%);
+        filter: hue-rotate(360deg);
+    }
+    75% 
+    {
+        transform: rotate(-270deg) translateX(-810%) translateY(106%) scaleY(2.16);
+    }
+    100% 
+    {
+        transform: rotate(-360deg);
+    }
+}

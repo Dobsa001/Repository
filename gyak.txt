@@ -1,0 +1,37 @@
+{
+    0%
+    {
+        transform: translatex(0) translatey(0);
+    }
+    10% 
+    {
+        transform: translateX(120px);
+    }
+    15%
+    {
+        transform: translateX(120px) translateY(45px);
+    }
+    20%
+    {
+        transform: translateX(-0px) translateY(45px) ;
+    }
+    25%
+    {
+        transform: translateX(-120px) translateY(45px);
+    }
+    30%
+    {
+        transform: translateX(-120px) translateY(90px);
+    }
+    35%
+    {
+        transform: translateX(-0px) translateY(90px);
+    }
+    40%
+    {
+        transform: translateX(120px) translateY(90px);
+    }
+    45%
+    {
+        transform: translateX(120px) translateY(135px);
+    }

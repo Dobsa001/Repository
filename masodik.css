@@ -1,0 +1,212 @@
+body
+{
+    background: linear-gradient(to left,green,pink,yellow,cyan,blue,white);
+    min-height: 90vh;
+}
+h1
+{
+    text-align: center;
+    color: red;
+    background: linear-gradient(white,pink,cyan,lightgreen);
+    border: 3px solid limegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    transition: all 5s ease-in;
+    border-radius: 10px;
+}
+h1:hover 
+{
+    transform: rotate(25deg) scale(2) translateY(300px);
+    background: linear-gradient(to right,green,cyan,pink,red,blue);
+    border-radius: 20px;
+}
+.box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:15px;
+    border: 4px solid black;
+    width: 500px;
+    height: 180px;
+    background: linear-gradient(to bottom,pink,purple,orange,red,blue);
+    border-radius: 20px;
+    transition: all 4s ease-in-out;
+}
+#button
+{
+    width: 120px;
+    height: 60px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background: linear-gradient(red,orange,green,pink,purple);
+    transition: all 4s ease-out;
+}
+@media (max-width:700px)
+{
+    #button
+    {
+        width: auto;
+        height: auto;
+        background-color: aqua;
+    }   
+    h1 
+    {
+        background:linear-gradient(green,yellow,white,purple,orange);
+        transition: all 2s ease-out;
+        color: blue;
+    }
+    h1:hover 
+    {
+        transform: rotate(-30deg) scale(1.5);
+        background: linear-gradient(to right,yellow,pink,purple);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+    img
+    {
+        width: 200px;
+        height: 100px;
+    }
+}
+#buton
+{
+    width:120px;
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(pink,yellow,orange,red,blue,green);
+    transition: all 2s ease;
+}
+#buon
+{
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(white,pink,purple,red,green);
+    color: red;
+    transition: all 3s ease-in-out;
+}
+.box:hover
+{
+    transform: translateX(800px) scale(3) rotate(45deg);
+}
+#button:hover
+{
+    transform: rotate(95deg) scale(3) translateX(250px);
+}
+#buton:hover 
+{
+    transform: rotate(-77deg) scale(2.5) translateY(150px); 
+}
+#buon:hover
+{
+    transform: rotate(100deg) scale(2) translateX(50px);
+}
+img
+{
+    border-radius: 20px;
+    border: 4px solid black;
+    transition: all 3s ease;
+    
+}
+img:hover 
+{
+    transform: scale(0.5) translateX(300px) translateZ(400px);
+    box-shadow: 10px 5px 7px greenyellow;
+    border-bottom: solid 10px coral;
+    border-top: solid 20px pink;
+    border-right: solid 15px red;
+    border-left: solid 13px rgb(2, 114, 0);
+}
+
+#buttton
+{
+    padding: 15px 30px;
+      font-size: 18px;
+      background-color: #8d0028;
+      color: white;
+      border: pink;
+      border-radius: 8px;
+      cursor: pointer;
+
+    animation-name: tobb-lepeses-mozgas;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes tobb-lepeses-mozgas
+{
+    0%
+    {
+        transform: translateX(0) scale(1) rotate(0deg);
+        background-color: #8d0028;
+    }
+    30%
+    {
+        transform: translateX(150px) scale(2) rotate(30deg);
+        background-color: aqua;
+    }
+    60%
+    {
+        transform: translate(170px) scale(2.5) rotate(45deg);
+        background-color: blanchedalmond;
+    }
+    100%
+    {
+        transform: translate(0) scale(1) rotate(0);
+        background-color: #8d0028;
+    }
+}
+
+#butttton
+{
+    background: linear-gradient(blue,pink,red,white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    width: 20%;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px limegreen;
+}
+
+#butttton:hover
+{
+    background:linear-gradient(white,blue,purple,green);
+    border: 10px solid white;
+    border-radius: 15px;
+    box-shadow: 15px 10px 5px lightskyblue;
+
+    animation-name: masodik-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes masodik-animation
+{
+    0%
+    {
+        transform: translatex(0px) scale(1) rotate(0deg);
+        background:linear-gradient(white,blue,purple,green)
+    }
+    25%
+    {
+        transform: translateX(100px) scale(1.5) rotate(30deg);
+        background: linear-gradient(red,blue,pink,purple);
+    }
+    50%
+    {
+        transform: translateX(200px) scale(2) rotate(60deg);
+        background: linear-gradient(pink,blue,cyan,red);
+    }
+    75%
+    {
+        transform: translateX(300px) scale(2.5) rotate(90deg);
+        background: linear-gradient(white,green,blue,cyan);
+    }
+    100%
+    {
+        transform: translateX(0px) scale(1) rotate(0deg);
+        background: linear-gradient(white,blue,purple,green);
+    }
+}

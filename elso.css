@@ -1,0 +1,133 @@
+h1
+{
+    text-align: center;
+    transition: all 3s ease;
+}
+body
+{
+    background-color: aqua;
+    width: 98%;
+    background-size: 100% 0%;
+    background-repeat: no-repeat;
+    transition: background-size 20s ease;
+}
+table
+{
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: palevioletred;
+    transition: all 3s ease-in;
+}
+td
+{
+    border: 3px solid rgb(0, 142, 0);
+    border-radius: 7px;
+    background-color: rgb(22, 64, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: all 5s ease-out;
+}
+table,th
+{
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    transition: all 5s ease;
+}
+.box
+{
+    background-color: blueviolet;
+    border: 7px solid green;
+    width:700px;
+    height:200px;
+    margin-left: 400px;
+    transition: all 3s ease-in-out;
+    border-radius: 6px;
+    background-size: 50% 0%;
+}
+table:hover
+{
+    box-shadow: 8px 8px 5px rgb(0, 0, 0);
+    background-color: bisque;
+    transform: rotate(200deg);
+}
+.box:hover
+{
+    background-color: black;
+    border: 10px solid yellow;
+    box-shadow: 10px 5px 7px rgb(0, 0, 0);
+    margin-left: 410px;
+    transform: rotate(-5deg) scale(1.05);
+    background-size: 100% 100%;
+}
+th:hover
+{
+    background-color: rgb(64, 0, 167);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: rotate(90deg) scale(2);
+}
+body:hover
+{
+    background: linear-gradient(to bottom right, red,purple,green,white,orange);
+    height:700px;
+    background-size: 100% 100%;
+}
+.button
+{
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    color: black;
+    background-color: chartreuse;
+    margin-left: 640px;
+    transition: all 3s linear;
+}
+.button:hover
+{
+    box-shadow: 7px 7px 7px blue;
+    margin-left: 630px;
+    background: linear-gradient(to bottom,red,blue,green);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    transform: rotate(90deg) scale(1.5);
+    border-radius: 20px;
+}
+td:hover 
+{
+    background-color: crimson;
+    color: rgb(251, 255, 0);
+    transform: rotate(75deg) scale(2);
+}
+table tbody td:nth-child(even)
+{
+    background-color: aquamarine;
+}
+table thead th:nth-child(odd):hover
+{
+    background: linear-gradient(to top,green,yellow,pink,purple);
+    color: darkblue;
+}
+table tbody td:nth-child(even):hover 
+{
+    background-color: azure;
+    color: black;
+}
+h1:hover 
+{
+    background: linear-gradient(to right, deeppink,white,yellow,cyan);
+    transform: rotate(-2deg) scale(1.05);
+}
+#buton
+{
+    margin-left:700px;
+    transition: all 3s linear;
+}
+#buton:hover
+{
+    background:linear-gradient(to right,yellow,green,purple,pink,cyan);
+    transform: scale(20) rotate(180deg);
+    border: 4px solid black;
+
+}

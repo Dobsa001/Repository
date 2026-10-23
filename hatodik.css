@@ -1,0 +1,155 @@
+body
+{
+    background-color: black;
+}
+#button_1
+{
+    background-color: darkviolet;
+}
+#button_2
+{
+    background-color: orchid;
+}
+#button_3
+{
+    background-color: skyblue;
+}
+#button_4
+{
+    background-color: greenyellow;
+}
+#button_5
+{
+    background-color: rgb(255, 62, 94);
+}
+#button_6
+{
+    background-color: aqua;
+}
+#button_7
+{
+    background-color: chartreuse;
+}
+#button_8
+{
+    background-color: chocolate;
+}
+#button_9
+{
+    background-color: forestgreen;
+}
+#button_10
+{
+    background-color: darkorchid;
+}
+#button_11
+{
+    background-color: darkkhaki;
+}
+#button_12
+{
+    background-color: darkorange;
+}
+#button_13
+{
+    background-color: burlywood;
+}
+#button_14
+{
+    background-color: dodgerblue;
+}
+#button_15
+{
+    background-color: mediumvioletred;
+}
+#button_16
+{
+    background-color: deeppink;
+}
+.button
+{
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.div
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+.button-1
+{
+    animation: button_1-animation;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_1-animation
+{
+    0%
+    {
+        transform: translateX(0) scale(1); 
+    }
+    10% 
+    {
+        transform: translateX(120%) rotate(180deg);
+    }
+    20% 
+    {
+        transform: translateX(120%) translateY(300%);
+    }
+    30% 
+    {
+        transform: translateX(0) translateY(300%) rotate(180deg);
+    }
+    40% 
+    {
+        transform: translateX(-120%) translateY(300%) rotate(360deg);
+    }
+    50% 
+    {
+        transform: translateX(-120%) translateY(0%);
+    }
+}
+
+.button-2
+{
+    animation: button_2-animation;
+    animation-timing-function: ease;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes button_2-animation
+{
+    0%
+    {
+        transform: translateX(0) scale(1); 
+    }
+    10% 
+    {
+        transform: translateX(-120%) rotate(180deg);
+    }
+    20% 
+    {
+        transform: translateX(-120%) translateY(-300%);
+    }
+    30% 
+    {
+        transform: translateX(0) translateY(-300%) rotate(180deg);
+    }
+    40% 
+    {
+        transform: translateX(120%) translateY(-300%) rotate(360deg);
+    }
+    50% 
+    {
+        transform: translateX(120%) translateY(0);
+    }
+}
